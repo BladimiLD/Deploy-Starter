@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/921fb540-17d7-476e-a414-bbdba738d63a/deploy-status)](https://app.netlify.com/sites/socialmediaclone8/deploys)
+
 # Dev-Starter-Kit
  *For My Students* 
 If you are doing any of my courses make sure you are using the right version this project is using gulp version 4.0.1 to view previous versions switch branches to older version

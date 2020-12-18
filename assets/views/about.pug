@@ -1,0 +1,24 @@
+extends layouts/app 
+
+block seo 
+  title About Page of Facebook Clone
+  meta(property='og:title', content='About Page for Facebook Clone')
+  meta(name='description', content='This is a Facebooker clone About Page')
+  meta(property='og:description', content='This a facebag clone')
+  meta(property='og:image', content='https://codingphase.com/img/websitethumb.png')
+  meta(name='twitter:card', content='summary_large_image')
+  meta(property='og:site_name', content='FBCLONE LLC')
+  meta(name='twitter:image:alt', content='This is a Fac3book clonem')
+  meta(name='twitter:site', content='@codingphase')
+  meta(property='og:url', content='https://codingphase.com')
+  link(rel="canonical" href="/about")
+
+block content
+  section#content-area
+   #about-page 
+    h1 About Page
+    p It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use it. 
+
+    p is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use it. 
+
+  script(src='/js/dist/main.js')
